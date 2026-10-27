@@ -1,0 +1,225 @@
+{
+  "date": "2026-10-27",
+  "status": "LOCAL_REVIEW_COMPLETE_AWAITING_PUBLICATION_APPROVAL",
+  "readme_sha256": "869156951e0799dd0db0058275ad2edde14379ccbd42e6eacd51cd0d4371dc96",
+  "renderer": "GitHub Markdown API HTML; local heading IDs + github-markdown-css; local browser, not live GitHub profile",
+  "github_markdown_api": {
+    "readme_sha256": "869156951e0799dd0db0058275ad2edde14379ccbd42e6eacd51cd0d4371dc96",
+    "status": 200,
+    "date": "2026-10-27",
+    "pictures": 8,
+    "sources": 8
+  },
+  "renders": [
+    {
+      "viewport": 1440,
+      "theme": "dark",
+      "article_width": 896,
+      "page_height": 4745,
+      "broken_images": 0,
+      "horizontal_overflow": false,
+      "missing_anchors": 0,
+      "page_errors": 0
+    },
+    {
+      "viewport": 1440,
+      "theme": "light",
+      "article_width": 896,
+      "page_height": 4745,
+      "broken_images": 0,
+      "horizontal_overflow": false,
+      "missing_anchors": 0,
+      "page_errors": 0
+    },
+    {
+      "viewport": 1024,
+      "theme": "dark",
+      "article_width": 896,
+      "page_height": 4745,
+      "broken_images": 0,
+      "horizontal_overflow": false,
+      "missing_anchors": 0,
+      "page_errors": 0
+    },
+    {
+      "viewport": 1024,
+      "theme": "light",
+      "article_width": 896,
+      "page_height": 4745,
+      "broken_images": 0,
+      "horizontal_overflow": false,
+      "missing_anchors": 0,
+      "page_errors": 0
+    },
+    {
+      "viewport": 390,
+      "theme": "dark",
+      "article_width": 366,
+      "page_height": 6980,
+      "broken_images": 0,
+      "horizontal_overflow": false,
+      "missing_anchors": 0,
+      "page_errors": 0
+    },
+    {
+      "viewport": 390,
+      "theme": "light",
+      "article_width": 366,
+      "page_height": 6980,
+      "broken_images": 0,
+      "horizontal_overflow": false,
+      "missing_anchors": 0,
+      "page_errors": 0
+    }
+  ],
+  "svg_count": 22,
+  "glyph_clipping_issues": 0,
+  "unsafe_svg_dependencies": 0,
+  "local_reference_checks": 39,
+  "local_reference_failures": 0,
+  "external_readme_links": 25,
+  "external_readme_http_non200": 0,
+  "publication_performed": false,
+  "new_remote_repository_created": false,
+  "product_inference_or_test_suites_rerun": false,
+  "complete_ui_revision": [
+    {
+      "project": "warscythe",
+      "variant": "desktop",
+      "complete_viewport": true,
+      "embedded_matches_standalone": true,
+      "original_unchanged": true
+    },
+    {
+      "project": "warscythe",
+      "variant": "mobile",
+      "complete_viewport": true,
+      "embedded_matches_standalone": true,
+      "original_unchanged": true
+    },
+    {
+      "project": "reflex",
+      "variant": "desktop",
+      "complete_viewport": true,
+      "embedded_matches_standalone": true,
+      "original_unchanged": true
+    },
+    {
+      "project": "reflex",
+      "variant": "mobile",
+      "complete_viewport": true,
+      "embedded_matches_standalone": true,
+      "original_unchanged": true
+    },
+    {
+      "project": "flood-lab",
+      "variant": "desktop",
+      "complete_viewport": true,
+      "embedded_matches_standalone": true,
+      "original_unchanged": true
+    },
+    {
+      "project": "flood-lab",
+      "variant": "mobile",
+      "complete_viewport": true,
+      "embedded_matches_standalone": true,
+      "original_unchanged": true
+    },
+    {
+      "project": "regulens",
+      "variant": "desktop",
+      "complete_viewport": true,
+      "embedded_matches_standalone": true,
+      "original_unchanged": true
+    },
+    {
+      "project": "regulens",
+      "variant": "mobile",
+      "complete_viewport": true,
+      "embedded_matches_standalone": true,
+      "original_unchanged": true
+    }
+  ],
+  "desktop_layout_revision": {
+    "desktop_panels": [
+      {
+        "project": "satquery",
+        "image_side": "right",
+        "text_half_width": 784,
+        "image_half_width": 784,
+        "image_width": 784.0,
+        "image_height": 544.444,
+        "row_height": 576.444,
+        "unused_horizontal_pixels": 0.4005,
+        "unused_vertical_pixels": 0.0,
+        "uncropped": true
+      },
+      {
+        "project": "warscythe",
+        "image_side": "left",
+        "text_half_width": 784,
+        "image_half_width": 784,
+        "image_width": 784.0,
+        "image_height": 429.975,
+        "row_height": 461.975,
+        "unused_horizontal_pixels": 0.0,
+        "unused_vertical_pixels": 0.0,
+        "uncropped": true
+      },
+      {
+        "project": "regulens",
+        "image_side": "right",
+        "text_half_width": 784,
+        "image_half_width": 784,
+        "image_width": 784.0,
+        "image_height": 490.0,
+        "row_height": 522.0,
+        "unused_horizontal_pixels": 0.0,
+        "unused_vertical_pixels": 0.0,
+        "uncropped": true
+      },
+      {
+        "project": "reflex",
+        "image_side": "left",
+        "text_half_width": 784,
+        "image_half_width": 784,
+        "image_width": 784.0,
+        "image_height": 429.567,
+        "row_height": 461.567,
+        "unused_horizontal_pixels": 0.0,
+        "unused_vertical_pixels": 0.0003,
+        "uncropped": true
+      },
+      {
+        "project": "ghosttrace",
+        "image_side": "right",
+        "text_half_width": 784,
+        "image_half_width": 784,
+        "image_width": 784.0,
+        "image_height": 490.0,
+        "row_height": 522.0,
+        "unused_horizontal_pixels": 0.1538,
+        "unused_vertical_pixels": 0.0,
+        "uncropped": true
+      },
+      {
+        "project": "flood-lab",
+        "image_side": "left",
+        "text_half_width": 784,
+        "image_half_width": 784,
+        "image_width": 784.0,
+        "image_height": 429.975,
+        "row_height": 461.975,
+        "unused_horizontal_pixels": 0.0,
+        "unused_vertical_pixels": 0.0,
+        "uncropped": true
+      }
+    ],
+    "unchanged_mobile_and_identity_assets": 16,
+    "readme_sha256": "869156951e0799dd0db0058275ad2edde14379ccbd42e6eacd51cd0d4371dc96"
+  },
+  "remaining": [
+    "User approval for public repository and push",
+    "Actual published GitHub profile and asset-delivery inspection"
+  ]
+}

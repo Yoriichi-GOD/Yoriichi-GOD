@@ -1,0 +1,78 @@
+[
+  {
+    "slug": "warscythe",
+    "original": "assets/Warscythe-ui.png",
+    "source_description": "User-selected local Warscythe UI, supplied 27 October 2026",
+    "original_sha256": "579424ffc7c166989146fd9b26ae6a9029ecaf55457ea51f17f29ac7a5543485",
+    "original_dimensions": [
+      2559,
+      1404
+    ],
+    "output": "assets/projects/warscythe-ui.webp",
+    "treatment": "Complete supplied viewport; proportional resize only; no crop or repainted pixels",
+    "public_reuse_authorized": true,
+    "output_sha256": "64b923a166a45d80497164922c2bcd8b61520cf021887445ab0a8b64d2550ad6",
+    "output_dimensions": [
+      1920,
+      1053
+    ],
+    "output_bytes": 212876
+  },
+  {
+    "slug": "reflex",
+    "original": "assets/reflex-ui.png",
+    "source_description": "User-selected REFLEX inspection UI, supplied 27 October 2026",
+    "original_sha256": "735684444ddeaffd877bc604ba6ec733b0a94ec83589a544513260b342a5860b",
+    "original_dimensions": [
+      2559,
+      1402
+    ],
+    "output": "assets/projects/reflex-ui.webp",
+    "treatment": "Complete supplied viewport; proportional resize only; no crop or repainted pixels",
+    "public_reuse_authorized": true,
+    "output_sha256": "0dd8bf585225e0b6f767776c70210979234d7a9e06860116c8c3efc6b999d5b1",
+    "output_dimensions": [
+      1920,
+      1052
+    ],
+    "output_bytes": 158506
+  },
+  {
+    "slug": "flood-lab",
+    "original": "assets/flood lab.png",
+    "source_description": "User-selected Flood Lab workspace with after-date optical preview, supplied 27 October 2026",
+    "original_sha256": "0f46b45e43b0ca9c494faedd7804755b70ed7183ceca80a32974d335eda04d08",
+    "original_dimensions": [
+      2559,
+      1404
+    ],
+    "output": "assets/projects/flood-lab-ui.webp",
+    "treatment": "Complete supplied viewport; proportional resize only; no crop or repainted pixels",
+    "public_reuse_authorized": true,
+    "output_sha256": "aa6b7d225dbd0ad26b28f46f04afaa3b03c5da213386667752a36bd91d469269",
+    "output_dimensions": [
+      1920,
+      1053
+    ],
+    "output_bytes": 111814
+  },
+  {
+    "slug": "regulens",
+    "original": ".review/sources/regulens.png",
+    "source_description": "Existing actual REGULENS Pixel Noir dashboard on isolated synthetic store; image reuse explicitly authorized by the user",
+    "original_sha256": "130e67e2d73e16199f7b8f5ac513e825bb822b040a279c9a71c10296a5c90e21",
+    "original_dimensions": [
+      1600,
+      1000
+    ],
+    "output": "assets/projects/regulens-ui.webp",
+    "treatment": "Complete supplied viewport; proportional resize only; no crop or repainted pixels",
+    "public_reuse_authorized": true,
+    "output_sha256": "7e006d272635138d87ebc0933dfce8ac6e41e68d87ff0d5faa4c1ca70a6123c4",
+    "output_dimensions": [
+      1600,
+      1000
+    ],
+    "output_bytes": 188906
+  }
+]

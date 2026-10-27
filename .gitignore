@@ -1,0 +1,9 @@
+.review/
+__pycache__/
+*.pyc
+node_modules/
+.env*
+assets/Warscythe-ui.png
+assets/reflex-ui.png
+assets/flood lab.png
+
