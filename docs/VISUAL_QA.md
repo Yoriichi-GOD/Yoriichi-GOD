@@ -2,6 +2,16 @@
 
 **27 October 2026 — published and verified on the live GitHub profile.**
 
+## Mobile correction after publication
+
+The user's phone screenshots exposed a missed content check: SatQuery still used an overlay crop, and GhostTrace still used a schematic. Image-loading and overflow checks had passed, but did not prove the intended screenshots were present. Both mobile plates now show the complete actual UI, scaled proportionally, using the same approved public sources as desktop. All six projects now have full-size UI links.
+
+The updated README passed GitHub's Markdown API (8 pictures / 8 mobile sources). Local Chromium renders passed at 1440, 1024 and 390 pixels in both themes: no broken images, overflow, missing anchors or page errors. The two corrected phone cards were visually inspected. Their embedded image bytes match uncropped proportional encodings of the full sources; image frames are 712 × 494 and 712 × 445 source pixels. All 29 other tracked asset files remain byte-for-byte unchanged, including all six desktop cards. The new original-image links returned anonymous HTTP 200 and matched their recorded SHA-256 hashes.
+
+The local mobile page now measures 7222 pixels high, versus 6980 in the initial publication; desktop remains 4745. Actual iPhone hardware and the native GitHub iOS app have not been tested. Live delivery of this correction is checked separately after pushing; see [VERIFICATION.json](VERIFICATION.json).
+
+The sections below retain the **initial publication checkpoint**, whose mobile composition assessment is superseded by this correction.
+
 ## What actually ran
 
 1. GitHub's anonymous, stateless Markdown API rendered the final public-safe README successfully (HTTP 200). All **8 picture elements and 8 mobile source elements** survived its sanitizer. No repository was created or written. The renderer returned no scripts.

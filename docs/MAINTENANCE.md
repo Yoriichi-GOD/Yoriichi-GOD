@@ -29,7 +29,7 @@ The initial inventory returned 404 for `Yoriichi-GOD/Yoriichi-GOD`. It was then 
 2. After approval, create `Yoriichi-GOD/Yoriichi-GOD` on GitHub, set visibility to **Public**, and leave automatic README/licence/gitignore initialization off when using this prepared local repository.
 3. From this local folder, inspect `git status` and `git diff --cached`. Include only `README.md`, `.gitignore`, `assets/`, `docs/`, and `tools/`. The ignored `.review/` cache contains local previews, source originals, dependencies and diagnostic data; never force-add it.
 4. Commit the reviewed files locally, add `https://github.com/Yoriichi-GOD/Yoriichi-GOD.git` as the remote, and push `main` **only after approval**.
-5. Open the actual GitHub profile and repository README on desktop/mobile in both themes. Confirm picture selection, embedded SVG specimens, the four full-size UI links, local-document routes and the evidence anchor. This is the remaining live-host validation step.
+5. Open the actual GitHub profile and repository README on desktop/mobile in both themes. Confirm picture selection, embedded SVG specimens, all six full-size UI links, local-document routes and the evidence anchor. Follow the current verification receipt rather than assuming a loaded image is the correct composition.
 6. Set the bio and six pins manually, or authorize those separate account changes. Uploading this package does not update the bio or pin settings automatically.
 
 After the public repository and this exact upload are approved, the local Git sequence is:
@@ -60,7 +60,7 @@ Use an isolated Python environment with Pillow, fonttools[woff] and Brotli. Obta
 2. When original captures are available, `python tools/prepare_ui_assets.py` verifies their hashes and creates proportional quality-90 WebP copies. If originals are absent in a fresh clone, it validates the existing tracked WebP files instead. Never substitute a new capture without updating its provenance and checking reuse authorization. `python tools/build_assets.py --font-dir <licensed-font-directory> --sources .review/sources` regenerates the static plates.
 3. For the local browser harness, provide `ARCHIVE_NODE_MODULES` pointing to a dependency directory containing `playwright`, `marked` and `sharp`, and `ARCHIVE_CHROME` pointing to an installed Chromium browser. Place the MIT-licensed [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) stylesheet in `.review/github-markdown.css`, then run `node tools/preview.cjs`. The harness uses local files and does not upload the README.
 4. `python tools/verify_links.py` performs anonymous public GET checks and local asset/unsafe-SVG checks. It does not run project inference.
-5. Inspect rendered screenshots. A loaded image can still contain a broken design. The first export in this work demonstrated exactly that with a glyph-mapping bug, which was corrected before delivery.
+5. Inspect rendered screenshots and the selected mobile assets themselves. Every project must show the complete actual UI viewport on mobile; a leftover crop or diagram is a regression even when the image loads. The earlier review missed precisely that for SatQuery and GhostTrace. Check both source selection and delivered SVG hashes on the live page after pushing.
 
 Keep a local copy of the old evidence and screenshots before updating. Do not overwrite project datasets or historic evaluation records from this repository.
 

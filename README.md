@@ -16,7 +16,7 @@ I’m **Saishreek Singh**, a founder and engineer building across artificial int
 
 **[SATQUERY AI](https://github.com/Yoriichi-GOD/SATquery-AI)** — Inspectable satellite analysis: optical/SAR water pathways, multitemporal change, and a dedicated change-question specialist. Separate modality outputs and published controls make the result open to scrutiny. Local research prototype; model assets require provisioning.
 
-[Reviewer walkthrough](https://github.com/Yoriichi-GOD/SATquery-AI/blob/main/docs/REVIEWER_GUIDE.md) · [Recorded evaluation](https://github.com/Yoriichi-GOD/SATquery-AI/blob/main/docs/CDVQA_FINAL_REPORT.md)
+[Open full UI](https://raw.githubusercontent.com/Yoriichi-GOD/SATquery-AI/f5a5a5fb2af8466a304911e462ecfae305f09b6b/docs/images/workspace-water-dark.png) · [Reviewer walkthrough](https://github.com/Yoriichi-GOD/SATquery-AI/blob/main/docs/REVIEWER_GUIDE.md) · [Recorded evaluation](https://github.com/Yoriichi-GOD/SATquery-AI/blob/main/docs/CDVQA_FINAL_REPORT.md)
 
 <sub>Water specimen: Sen1Floods11 / Cloud to Street; modified Copernicus Sentinel data. Predicted coverage is not accuracy. [Visual sources](docs/CONTENT_PROVENANCE.md#visual-sources).</sub>
 
@@ -51,12 +51,12 @@ I’m **Saishreek Singh**, a founder and engineer building across artificial int
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/projects/ghosttrace-mobile.svg">
-  <img src="assets/projects/ghosttrace.svg" width="1600" alt="05 / GHOSTTRACE — Privacy engineering. Follow what deletion left behind. Actual desktop UI on an authored synthetic case; mobile art is an identity-link schematic.">
+  <img src="assets/projects/ghosttrace.svg" width="1600" alt="05 / GHOSTTRACE — Privacy engineering. Follow what deletion left behind. Complete actual investigation UI on an authored synthetic case, on desktop and mobile.">
 </picture>
 
 **[GHOSTTRACE](https://github.com/Yoriichi-GOD/GhostTrace)** — A read-only deletion audit connecting identity history, cutoff-aware evidence, and policy-driven findings. One Python auditor powers CLI and dashboard, with masked sources and reviewable recommendations. Local prototype; it never executes deletions or certifies compliance.
 
-[Follow an investigation](https://github.com/Yoriichi-GOD/GhostTrace/blob/main/docs/REVIEWER_GUIDE.md) · [Evaluation and limitations](https://github.com/Yoriichi-GOD/GhostTrace/blob/main/code/evaluation/evaluation_report.md)
+[Open full UI](https://raw.githubusercontent.com/Yoriichi-GOD/GhostTrace/c827b06d9310c872e1334ed34a99dfb529f97e57/docs/media/investigation-overview.png) · [Follow an investigation](https://github.com/Yoriichi-GOD/GhostTrace/blob/main/docs/REVIEWER_GUIDE.md) · [Evaluation and limitations](https://github.com/Yoriichi-GOD/GhostTrace/blob/main/code/evaluation/evaluation_report.md)
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/projects/flood-lab-mobile.svg">

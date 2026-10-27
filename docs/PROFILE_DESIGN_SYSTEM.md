@@ -45,9 +45,9 @@ The rhythm comes from mirrored image/text placement, with shared charcoal frames
 
 ## Responsive behavior
 
-`picture` switches to separate mobile compositions below 600 CSS pixels. The approved mobile compositions are unchanged: the four complete-UI plates remain stacked, SatQuery retains its output detail, and GhostTrace retains its schematic. Hero: 800 × 940. Desktop project plates are 1600 pixels wide; the inner 1568 pixels split into two equal 784-pixel halves. The image half has no added internal margin, and its height follows the screenshot ratio. The working principle also retains its stacked mobile plate.
+`picture` switches to separate mobile compositions below 600 CSS pixels. All six mobile project plates stack the title and tagline above a complete UI viewport. SatQuery and GhostTrace now use the same complete public screenshots as their desktop cards, replacing the earlier mobile crop and schematic. Image height follows the screenshot ratio with `meet` scaling. Hero: 800 × 940. Desktop project plates are 1600 pixels wide; the inner 1568 pixels split into two equal 784-pixel halves. The image half has no added internal margin, and its height follows the screenshot ratio. The working principle also retains its stacked mobile plate.
 
-At approximately 332 pixels of image width, the mobile name is about 43 pixels high, project titles 27–32 pixels, and plate explanatory lines about 11 pixels. Critical facts remain 16-pixel native Markdown text. Complete UI views contain naturally small app text at phone width; each revised project has an **Open full UI** link for inspection. Supplementary serial labels are never the only place a status or claim appears.
+At approximately 332 pixels of image width, the mobile name is about 43 pixels high, project titles 27–32 pixels, and plate explanatory lines about 11 pixels. Critical facts remain 16-pixel native Markdown text. Complete UI views contain naturally small app text at phone width; all six projects have an **Open full UI** link for inspection. Supplementary serial labels are never the only place a status or claim appears.
 
 ## Asset rules
 
@@ -55,7 +55,7 @@ At approximately 332 pixels of image width, the mobile name is about 43 pixels h
 - No scripts, foreignObject, remote resources, CSS dependency, external statistics service or animation.
 - A single optimized PNG hero fallback is supplied for clients that cannot display SVG. To use it, replace the hero img's src; mobile SVG remains the preferred mobile plate.
 - Two unchanged public specimens are pinned by revision and verified Git blob SHA. The four replacement UI inputs have original and output SHA-256 records in `tools/ui_sources.json`. Their complete viewports are preserved, and optimized standalone WebP copies provide full-size access. User PNG originals remain local and ignored.
-- REGULENS uses the explicitly authorized actual dashboard on fictional records. The earlier generic diagram is replaced. GhostTrace's existing mobile identity-link schematic is unchanged.
+- REGULENS uses the explicitly authorized actual dashboard on fictional records. GhostTrace uses its public synthetic-case investigation UI on both desktop and mobile. The earlier diagrams are superseded.
 - No UI screens are generated, repainted or presented as new product functionality.
 
 ## Acceptance standard

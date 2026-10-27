@@ -1,10 +1,10 @@
 {
   "date": "2026-10-27",
-  "status": "PUBLISHED_LIVE_PROFILE_VERIFIED",
-  "readme_sha256": "869156951e0799dd0db0058275ad2edde14379ccbd42e6eacd51cd0d4371dc96",
+  "status": "MOBILE_FIX_LOCAL_VERIFIED_LIVE_CHECK_PENDING",
+  "readme_sha256": "ca6df302487b9ffa66f39efdd5e94c9cfce847be8f3c52cf8f31f1ea5ba2a8f9",
   "renderer": "GitHub Markdown API HTML; local heading IDs + github-markdown-css; local browser, not live GitHub profile",
   "github_markdown_api": {
-    "readme_sha256": "869156951e0799dd0db0058275ad2edde14379ccbd42e6eacd51cd0d4371dc96",
+    "readme_sha256": "ca6df302487b9ffa66f39efdd5e94c9cfce847be8f3c52cf8f31f1ea5ba2a8f9",
     "status": 200,
     "date": "2026-10-27",
     "pictures": 8,
@@ -55,7 +55,7 @@
       "viewport": 390,
       "theme": "dark",
       "article_width": 366,
-      "page_height": 6980,
+      "page_height": 7222,
       "broken_images": 0,
       "horizontal_overflow": false,
       "missing_anchors": 0,
@@ -65,7 +65,7 @@
       "viewport": 390,
       "theme": "light",
       "article_width": 366,
-      "page_height": 6980,
+      "page_height": 7222,
       "broken_images": 0,
       "horizontal_overflow": false,
       "missing_anchors": 0,
@@ -77,7 +77,7 @@
   "unsafe_svg_dependencies": 0,
   "local_reference_checks": 39,
   "local_reference_failures": 0,
-  "external_readme_links": 25,
+  "external_readme_links": 27,
   "external_readme_http_non200": 0,
   "publication_performed": true,
   "new_remote_repository_created": true,
@@ -218,12 +218,48 @@
     "unchanged_mobile_and_identity_assets": 16,
     "readme_sha256": "869156951e0799dd0db0058275ad2edde14379ccbd42e6eacd51cd0d4371dc96"
   },
-  "remaining": [],
+  "remaining": [
+    "Verify the corrected SVG bytes and phone composition on the actual live profile after pushing."
+  ],
   "user_publication_approval_received": true,
   "profile_url": "https://github.com/Yoriichi-GOD",
   "repository_url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD",
   "publication_base_commit": "ab64eae1b38659e6b7ffa7bdaa0edc250fd443bc",
-  "live_checks": [
+  "live_checks": [],
+  "remote_content_verification": {
+    "checkedDate": "2026-10-27",
+    "repository": "https://github.com/Yoriichi-GOD/Yoriichi-GOD",
+    "visibility": "public",
+    "default_branch": "main",
+    "head": "ab64eae1b38659e6b7ffa7bdaa0edc250fd443bc",
+    "file_count": 48,
+    "remote_tree_matches_local": true,
+    "readme_sha256": "869156951e0799dd0db0058275ad2edde14379ccbd42e6eacd51cd0d4371dc96",
+    "excluded_originals_and_review_files": true,
+    "full_ui_assets": [
+      {
+        "project": "warscythe",
+        "anonymous_access": true,
+        "sha256_matches_approved_asset": true
+      },
+      {
+        "project": "reflex",
+        "anonymous_access": true,
+        "sha256_matches_approved_asset": true
+      },
+      {
+        "project": "flood-lab",
+        "anonymous_access": true,
+        "sha256_matches_approved_asset": true
+      },
+      {
+        "project": "regulens",
+        "anonymous_access": true,
+        "sha256_matches_approved_asset": true
+      }
+    ]
+  },
+  "initial_publication_live_checks": [
     {
       "viewport": 1440,
       "theme": "dark",
@@ -291,37 +327,63 @@
       "evidence_anchor": true
     }
   ],
-  "remote_content_verification": {
-    "checkedDate": "2026-10-27",
-    "repository": "https://github.com/Yoriichi-GOD/Yoriichi-GOD",
-    "visibility": "public",
-    "default_branch": "main",
-    "head": "ab64eae1b38659e6b7ffa7bdaa0edc250fd443bc",
-    "file_count": 48,
-    "remote_tree_matches_local": true,
-    "readme_sha256": "869156951e0799dd0db0058275ad2edde14379ccbd42e6eacd51cd0d4371dc96",
-    "excluded_originals_and_review_files": true,
-    "full_ui_assets": [
+  "mobile_ui_correction": {
+    "date": "2026-10-27",
+    "scope": "SatQuery and GhostTrace mobile cards now preserve complete public UI viewports",
+    "complete_viewports": [
       {
-        "project": "warscythe",
-        "anonymous_access": true,
-        "sha256_matches_approved_asset": true
+        "project": "satquery",
+        "source_dimensions": [
+          1440,
+          1000
+        ],
+        "embedded_dimensions": [
+          924,
+          642
+        ],
+        "frame_dimensions": [
+          712.0,
+          494.0
+        ],
+        "complete_viewport": true,
+        "proportional_uncropped_copy_verified": true,
+        "mobile_svg_sha256": "395d9b08cc62cd0c84d25af0857b3128a469d0e2647df6a0cfcf07e995b476db"
       },
       {
-        "project": "reflex",
-        "anonymous_access": true,
-        "sha256_matches_approved_asset": true
-      },
-      {
-        "project": "flood-lab",
-        "anonymous_access": true,
-        "sha256_matches_approved_asset": true
-      },
-      {
-        "project": "regulens",
-        "anonymous_access": true,
-        "sha256_matches_approved_asset": true
+        "project": "ghosttrace",
+        "source_dimensions": [
+          1600,
+          1000
+        ],
+        "embedded_dimensions": [
+          925,
+          578
+        ],
+        "frame_dimensions": [
+          712.0,
+          445.0
+        ],
+        "complete_viewport": true,
+        "proportional_uncropped_copy_verified": true,
+        "mobile_svg_sha256": "618e9b4381ac744b4dd87406179209a4e9f6b103c778dce4e9977830e1c6e2f4"
       }
-    ]
+    ],
+    "all_six_mobile_cards_have_actual_ui": true,
+    "unchanged_other_tracked_assets": 29,
+    "new_full_ui_link_checks": [
+      {
+        "url": "https://raw.githubusercontent.com/Yoriichi-GOD/SATquery-AI/f5a5a5fb2af8466a304911e462ecfae305f09b6b/docs/images/workspace-water-dark.png",
+        "status": 200,
+        "pinned_source_hash_matches": true
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Yoriichi-GOD/GhostTrace/c827b06d9310c872e1334ed34a99dfb529f97e57/docs/media/investigation-overview.png",
+        "status": 200,
+        "pinned_source_hash_matches": true
+      }
+    ],
+    "native_github_ios_app_tested": false,
+    "publication_asset_bytes": 3779968,
+    "local_receipt": ".review/mobile-fix-checks.json"
   }
 }

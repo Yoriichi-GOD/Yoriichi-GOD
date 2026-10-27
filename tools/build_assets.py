@@ -150,17 +150,17 @@ def lineage(x,y,w,h):
     return s
 
 PROJECTS=[
- dict(slug='satquery',num='01',title=['SATQUERY AI'],category='EARTH OBSERVATION',line=['Ask about Earth.','Inspect the answer.'],accent='#748AAE',file='satquery.png',crop=(266,273,606,611),caption='PREDICTED WATER / ACTUAL OUTPUT',status='LOCAL RESEARCH PROTOTYPE'),
+ dict(slug='satquery',num='01',title=['SATQUERY AI'],category='EARTH OBSERVATION',line=['Ask about Earth.','Inspect the answer.'],accent='#748AAE',file='satquery.png',crop=None,caption='PREDICTED WATER / ACTUAL OUTPUT',status='LOCAL RESEARCH PROTOTYPE',full_ui=True),
  dict(slug='warscythe',num='02',title=['WARSCYTHE'],category='PRODUCT ENGINEERING',line=['Make execution','a world worth entering.'],accent='#A27E64',file='asset:assets/projects/warscythe-ui.webp',crop=None,caption='USER-SELECTED UI / COMPLETE VIEWPORT',status='PERSISTENT PROGRESSION',full_ui=True),
  dict(slug='regulens',num='03',title=['REGULENS'],category='DOCUMENT INTELLIGENCE',line=['A finding should','lead back to its source.'],accent='#C9A56C',file='asset:assets/projects/regulens-ui.webp',crop=None,caption='ACTUAL UI / SYNTHETIC DEMONSTRATION',status='PRIVATE / SIH26261 PROTOTYPE',full_ui=True),
  dict(slug='reflex',num='04',title=['REFLEX'],category='COMPUTER VISION',line=['Find the unusual.','Keep the evidence.'],accent='#CB8A61',file='asset:assets/projects/reflex-ui.webp',crop=None,caption='USER-SELECTED UI / COMPLETE VIEWPORT',status='HOSTED V1 / V2 HELD LOCAL',full_ui=True),
- dict(slug='ghosttrace',num='05',title=['GHOSTTRACE'],category='PRIVACY ENGINEERING',line=['Follow what','deletion left behind.'],accent='#9D91AB',file='ghosttrace.png',crop=None,caption='ACTUAL UI / AUTHORED SYNTHETIC CASE',status='READ-ONLY INVESTIGATION'),
+ dict(slug='ghosttrace',num='05',title=['GHOSTTRACE'],category='PRIVACY ENGINEERING',line=['Follow what','deletion left behind.'],accent='#9D91AB',file='ghosttrace.png',crop=None,caption='ACTUAL UI / AUTHORED SYNTHETIC CASE',status='READ-ONLY INVESTIGATION',full_ui=True),
  dict(slug='flood-lab',num='06',title=['SATQUERY','FLOOD LAB'],category='GEOSPATIAL EVIDENCE',line=['Observe the change.','Interrogate the impact.'],accent='#7EA09C',file='asset:assets/projects/flood-lab-ui.webp',crop=None,caption='OPTICAL PREVIEW / ACTUAL WORKSPACE',status='LOCAL RESEARCH PROTOTYPE',full_ui=True),
 ]
 
 def full_ui_plate(p,mobile=False):
     """Preserve the complete viewport in a large, proportional image frame."""
-    source=ROOT/p['file'][6:]
+    source=ROOT/p['file'][6:] if p['file'].startswith('asset:') else SOURCES/p['file']
     im=Image.open(source)
     w=800 if mobile else 1600
     ix=44 if mobile else 64
