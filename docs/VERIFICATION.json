@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "status": "MOBILE_FIX_LOCAL_VERIFIED_LIVE_CHECK_PENDING",
+  "status": "PUBLISHED_MOBILE_UI_FIX_LIVE_VERIFIED",
   "readme_sha256": "ca6df302487b9ffa66f39efdd5e94c9cfce847be8f3c52cf8f31f1ea5ba2a8f9",
   "renderer": "GitHub Markdown API HTML; local heading IDs + github-markdown-css; local browser, not live GitHub profile",
   "github_markdown_api": {
@@ -218,14 +218,261 @@
     "unchanged_mobile_and_identity_assets": 16,
     "readme_sha256": "869156951e0799dd0db0058275ad2edde14379ccbd42e6eacd51cd0d4371dc96"
   },
-  "remaining": [
-    "Verify the corrected SVG bytes and phone composition on the actual live profile after pushing."
-  ],
+  "remaining": [],
   "user_publication_approval_received": true,
   "profile_url": "https://github.com/Yoriichi-GOD",
   "repository_url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD",
   "publication_base_commit": "ab64eae1b38659e6b7ffa7bdaa0edc250fd443bc",
-  "live_checks": [],
+  "live_checks": [
+    {
+      "width": 1440,
+      "theme": "dark",
+      "httpStatus": 200,
+      "articleWidth": 846,
+      "background": "rgb(13, 17, 23)",
+      "pictures": 8,
+      "overflow": false,
+      "brokenImages": [],
+      "fullUiLinks": 6,
+      "correctedAssets": [
+        {
+          "project": "satquery",
+          "selectedVariant": "desktop",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/satquery.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "225e987b41128ec5e16c808beb9dba3e0268d28080357b4dfef96e7bf2c92b7f",
+          "matches_local_sha256": true
+        },
+        {
+          "project": "ghosttrace",
+          "selectedVariant": "desktop",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/ghosttrace.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "6e946159fe83bfa13176177fa08dc89840af1321fdc71a456ed58329cc6f4bf8",
+          "matches_local_sha256": true
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "httpStatus": 200,
+      "articleWidth": 846,
+      "background": "rgb(255, 255, 255)",
+      "pictures": 8,
+      "overflow": false,
+      "brokenImages": [],
+      "fullUiLinks": 6,
+      "correctedAssets": [
+        {
+          "project": "satquery",
+          "selectedVariant": "desktop",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/satquery.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "225e987b41128ec5e16c808beb9dba3e0268d28080357b4dfef96e7bf2c92b7f",
+          "matches_local_sha256": true
+        },
+        {
+          "project": "ghosttrace",
+          "selectedVariant": "desktop",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/ghosttrace.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "6e946159fe83bfa13176177fa08dc89840af1321fdc71a456ed58329cc6f4bf8",
+          "matches_local_sha256": true
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "theme": "dark",
+      "httpStatus": 200,
+      "articleWidth": 590,
+      "background": "rgb(13, 17, 23)",
+      "pictures": 8,
+      "overflow": false,
+      "brokenImages": [],
+      "fullUiLinks": 6,
+      "correctedAssets": [
+        {
+          "project": "satquery",
+          "selectedVariant": "desktop",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/satquery.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "225e987b41128ec5e16c808beb9dba3e0268d28080357b4dfef96e7bf2c92b7f",
+          "matches_local_sha256": true
+        },
+        {
+          "project": "ghosttrace",
+          "selectedVariant": "desktop",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/ghosttrace.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "6e946159fe83bfa13176177fa08dc89840af1321fdc71a456ed58329cc6f4bf8",
+          "matches_local_sha256": true
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "theme": "light",
+      "httpStatus": 200,
+      "articleWidth": 590,
+      "background": "rgb(255, 255, 255)",
+      "pictures": 8,
+      "overflow": false,
+      "brokenImages": [],
+      "fullUiLinks": 6,
+      "correctedAssets": [
+        {
+          "project": "satquery",
+          "selectedVariant": "desktop",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/satquery.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "225e987b41128ec5e16c808beb9dba3e0268d28080357b4dfef96e7bf2c92b7f",
+          "matches_local_sha256": true
+        },
+        {
+          "project": "ghosttrace",
+          "selectedVariant": "desktop",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/ghosttrace.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "6e946159fe83bfa13176177fa08dc89840af1321fdc71a456ed58329cc6f4bf8",
+          "matches_local_sha256": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "httpStatus": 200,
+      "articleWidth": 308,
+      "background": "rgb(13, 17, 23)",
+      "pictures": 8,
+      "overflow": false,
+      "brokenImages": [],
+      "fullUiLinks": 6,
+      "correctedAssets": [
+        {
+          "project": "satquery",
+          "selectedVariant": "mobile",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/satquery-mobile.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "395d9b08cc62cd0c84d25af0857b3128a469d0e2647df6a0cfcf07e995b476db",
+          "matches_local_sha256": true
+        },
+        {
+          "project": "ghosttrace",
+          "selectedVariant": "mobile",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/ghosttrace-mobile.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "618e9b4381ac744b4dd87406179209a4e9f6b103c778dce4e9977830e1c6e2f4",
+          "matches_local_sha256": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "httpStatus": 200,
+      "articleWidth": 308,
+      "background": "rgb(255, 255, 255)",
+      "pictures": 8,
+      "overflow": false,
+      "brokenImages": [],
+      "fullUiLinks": 6,
+      "correctedAssets": [
+        {
+          "project": "satquery",
+          "selectedVariant": "mobile",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/satquery-mobile.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "395d9b08cc62cd0c84d25af0857b3128a469d0e2647df6a0cfcf07e995b476db",
+          "matches_local_sha256": true
+        },
+        {
+          "project": "ghosttrace",
+          "selectedVariant": "mobile",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/ghosttrace-mobile.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "618e9b4381ac744b4dd87406179209a4e9f6b103c778dce4e9977830e1c6e2f4",
+          "matches_local_sha256": true
+        }
+      ]
+    },
+    {
+      "width": 350,
+      "theme": "dark",
+      "httpStatus": 200,
+      "articleWidth": 268,
+      "background": "rgb(13, 17, 23)",
+      "pictures": 8,
+      "overflow": false,
+      "brokenImages": [],
+      "fullUiLinks": 6,
+      "correctedAssets": [
+        {
+          "project": "satquery",
+          "selectedVariant": "mobile",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/satquery-mobile.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "395d9b08cc62cd0c84d25af0857b3128a469d0e2647df6a0cfcf07e995b476db",
+          "matches_local_sha256": true
+        },
+        {
+          "project": "ghosttrace",
+          "selectedVariant": "mobile",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/ghosttrace-mobile.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "618e9b4381ac744b4dd87406179209a4e9f6b103c778dce4e9977830e1c6e2f4",
+          "matches_local_sha256": true
+        }
+      ]
+    },
+    {
+      "width": 350,
+      "theme": "light",
+      "httpStatus": 200,
+      "articleWidth": 268,
+      "background": "rgb(255, 255, 255)",
+      "pictures": 8,
+      "overflow": false,
+      "brokenImages": [],
+      "fullUiLinks": 6,
+      "correctedAssets": [
+        {
+          "project": "satquery",
+          "selectedVariant": "mobile",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/satquery-mobile.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "395d9b08cc62cd0c84d25af0857b3128a469d0e2647df6a0cfcf07e995b476db",
+          "matches_local_sha256": true
+        },
+        {
+          "project": "ghosttrace",
+          "selectedVariant": "mobile",
+          "url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD/raw/main/assets/projects/ghosttrace-mobile.svg",
+          "httpStatus": 200,
+          "selected_source_correct": true,
+          "sha256": "618e9b4381ac744b4dd87406179209a4e9f6b103c778dce4e9977830e1c6e2f4",
+          "matches_local_sha256": true
+        }
+      ]
+    }
+  ],
   "remote_content_verification": {
     "checkedDate": "2026-10-27",
     "repository": "https://github.com/Yoriichi-GOD/Yoriichi-GOD",
@@ -384,6 +631,9 @@
     ],
     "native_github_ios_app_tested": false,
     "publication_asset_bytes": 3779968,
-    "local_receipt": ".review/mobile-fix-checks.json"
+    "local_receipt": ".review/mobile-fix-checks.json",
+    "live_receipt": ".review/mobile-fix-live-checks.json",
+    "live_browser": "Chromium; actual anonymous GitHub profile, not native GitHub iOS app",
+    "live_delivery_verified": true
   }
 }
