@@ -1,6 +1,6 @@
 # Maintenance and publishing
 
-Prepared locally on 27 October 2026. No remote repository, push, visibility change, deployment or profile-setting update has been performed.
+Published on 27 October 2026 with explicit user approval. The profile repository is public and its live rendering has been checked. See [PUBLICATION.md](PUBLICATION.md). Account bio and pin settings remain unchanged.
 
 ## Recommended GitHub bio
 
@@ -23,7 +23,7 @@ REGULENS remains featured as a private project in the README. It is not a public
 
 GitHub requires a **public** repository with the exact account name and a nonempty root `README.md`. See [GitHub's profile README instructions](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme).
 
-The connected-account and anonymous checks both returned 404 for `Yoriichi-GOD/Yoriichi-GOD` during this review. Recheck before creation; another session could create it later.
+The initial inventory returned 404 for `Yoriichi-GOD/Yoriichi-GOD`. It was then created publicly after approval and pushed on `main`. The following steps document the publication workflow; for future updates, use the existing remote and inspect current history.
 
 1. Review the root README, full preview, provenance record, and final file list. Approve this exact package and the public visibility.
 2. After approval, create `Yoriichi-GOD/Yoriichi-GOD` on GitHub, set visibility to **Public**, and leave automatic README/licence/gitignore initialization off when using this prepared local repository.
@@ -42,7 +42,7 @@ git remote add origin https://github.com/Yoriichi-GOD/Yoriichi-GOD.git
 git push -u origin main
 ```
 
-Run the inspection step before the commit. If a remote already exists, inspect it before changing anything; do not blindly repeat `remote add`. These commands are instructions only and have not been executed in this task.
+Run the inspection step before the commit. If a remote already exists, inspect it before changing anything; do not blindly repeat `remote add`. These commands document the original publication workflow. The repository now has an origin remote and published history; inspect them before reusing any setup command.
 
 If GitHub's live SVG path fails in a client, use the PNG hero fallback; for a broader fallback rasterize the affected plates from their SVG source. Inspect that actual failure before introducing duplicate raster assets.
 

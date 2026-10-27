@@ -1,6 +1,6 @@
 # Visual QA and closure record
 
-**27 October 2026 — alternating side-by-side revision ready for local approval. Not published.**
+**27 October 2026 — published and verified on the live GitHub profile.**
 
 ## What actually ran
 
@@ -10,7 +10,7 @@
 4. Browser checks recorded image loading, selected picture sources, element bounds, document overflow, anchor targets and page errors. Every SVG's outlined-lettering bounds were checked against its viewBox.
 5. Actual screenshots were visually inspected: cover typography, desktop/mobile project treatments, working principle, top sections, evidence and footer. The current revision restores alternating image/text desktop cards for all six projects while preserving the approved UI inputs and phone compositions. The six changed desktop plates, including the enlarged SatQuery image half, were inspected directly.
 
-This is **GitHub-rendered Markdown HTML inspected in a local browser**, not a screenshot of a published profile. GitHub's live asset delivery, profile/sidebar container and account-specific page behavior remain to be checked after publication is approved.
+The local matrix below records **GitHub-rendered Markdown HTML inspected in a local browser**. After the user approved publication, the actual anonymous GitHub profile was additionally rendered and inspected at 1440, 1024 and 390 pixels in both color schemes. The [publication record](PUBLICATION.md) reports live container widths, image delivery, full-size routes and responsive selection.
 
 ## Final render matrix
 
@@ -57,10 +57,10 @@ The article includes its padding and border. Actual artwork is approximately 846
 - [x] Bio of 141 characters and six public pin recommendations.
 - [x] Rendered checks at all requested widths/themes; actual visual inspection and correction.
 - [x] No project-source edits or publication actions.
-- [ ] User approval to create the public profile repository and push this exact package.
-- [ ] Post-publication inspection on the actual GitHub profile, including live SVG delivery and narrower sidebar/container behavior.
+- [x] User approval received; public profile repository created and reviewed package pushed.
+- [x] Actual GitHub profile inspected at all requested widths/themes, including live SVG delivery, responsive hero, full-size UI routes and sidebar/container behavior.
 
-The unchecked items are publication gates, not claims already proved. No remote repository is created merely to obtain a screenshot.
+Publication gates are closed. The actual GitHub checks are recorded separately from the earlier local-render measurements.
 
 ## Local review artifacts
 
@@ -69,3 +69,7 @@ The ignored `.review/` folder contains six `profile-WIDTH-THEME.png` full-page s
 The final response links the desktop/mobile previews directly for review. [Publishing and maintenance](MAINTENANCE.md) explains the remaining live-host check.
 
 Earlier checkpoints and QA reports are preserved locally in `.review/revisions/before-full-ui/` and `.review/revisions/before-side-by-side/`. The image receipt remains `tools/ui_sources.json`; local checks are `.review/ui-revision-checks.json` and `.review/side-by-side-checks.json`.
+
+## Publication closure
+
+The user approved publication on 27 October 2026. [Live profile and verification receipt](PUBLICATION.md). No source project or account bio/pin change accompanied publication.

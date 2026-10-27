@@ -75,6 +75,6 @@ The four revised UI assets use proportional resizing to at most 1920 pixels and 
 - `peekolitix.in` returned **Peekolitix Intelligence**, but no rendered product flow was inspected; the older Vercel candidate returned 404. The profile conservatively links its public source only.
 - Lighthouse has production configuration documentation but no verified unrestricted visitor demo URL in this pass.
 - REGULENS has no public source/demo link. One explicitly authorized synthetic-demo UI screenshot is bundled; private evaluation values remain absent.
-- `Yoriichi-GOD/Yoriichi-GOD` returned 404 both through the connected account and anonymously. Its creation/publication remains a user decision after reviewing this package.
+- The profile repository initially returned 404. Following explicit approval it was created publicly and the reviewed package was pushed. [Publication and live verification](PUBLICATION.md).
 
 Link-check receipts, source originals, browser screenshots and raw read-only inventory are kept locally under ignored `.review/`. The shareable verification summary is [VISUAL_QA.md](VISUAL_QA.md).

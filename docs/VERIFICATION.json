@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "status": "LOCAL_REVIEW_COMPLETE_AWAITING_PUBLICATION_APPROVAL",
+  "status": "PUBLISHED_LIVE_PROFILE_VERIFIED",
   "readme_sha256": "869156951e0799dd0db0058275ad2edde14379ccbd42e6eacd51cd0d4371dc96",
   "renderer": "GitHub Markdown API HTML; local heading IDs + github-markdown-css; local browser, not live GitHub profile",
   "github_markdown_api": {
@@ -79,8 +79,8 @@
   "local_reference_failures": 0,
   "external_readme_links": 25,
   "external_readme_http_non200": 0,
-  "publication_performed": false,
-  "new_remote_repository_created": false,
+  "publication_performed": true,
+  "new_remote_repository_created": true,
   "product_inference_or_test_suites_rerun": false,
   "complete_ui_revision": [
     {
@@ -218,8 +218,110 @@
     "unchanged_mobile_and_identity_assets": 16,
     "readme_sha256": "869156951e0799dd0db0058275ad2edde14379ccbd42e6eacd51cd0d4371dc96"
   },
-  "remaining": [
-    "User approval for public repository and push",
-    "Actual published GitHub profile and asset-delivery inspection"
-  ]
+  "remaining": [],
+  "user_publication_approval_received": true,
+  "profile_url": "https://github.com/Yoriichi-GOD",
+  "repository_url": "https://github.com/Yoriichi-GOD/Yoriichi-GOD",
+  "publication_base_commit": "ab64eae1b38659e6b7ffa7bdaa0edc250fd443bc",
+  "live_checks": [
+    {
+      "viewport": 1440,
+      "theme": "dark",
+      "article_width": 846,
+      "http_status": 200,
+      "broken_images": 0,
+      "overflow": false,
+      "responsive_hero_correct": true,
+      "full_ui_links": 4,
+      "evidence_anchor": true
+    },
+    {
+      "viewport": 1440,
+      "theme": "light",
+      "article_width": 846,
+      "http_status": 200,
+      "broken_images": 0,
+      "overflow": false,
+      "responsive_hero_correct": true,
+      "full_ui_links": 4,
+      "evidence_anchor": true
+    },
+    {
+      "viewport": 1024,
+      "theme": "dark",
+      "article_width": 590,
+      "http_status": 200,
+      "broken_images": 0,
+      "overflow": false,
+      "responsive_hero_correct": true,
+      "full_ui_links": 4,
+      "evidence_anchor": true
+    },
+    {
+      "viewport": 1024,
+      "theme": "light",
+      "article_width": 590,
+      "http_status": 200,
+      "broken_images": 0,
+      "overflow": false,
+      "responsive_hero_correct": true,
+      "full_ui_links": 4,
+      "evidence_anchor": true
+    },
+    {
+      "viewport": 390,
+      "theme": "dark",
+      "article_width": 308,
+      "http_status": 200,
+      "broken_images": 0,
+      "overflow": false,
+      "responsive_hero_correct": true,
+      "full_ui_links": 4,
+      "evidence_anchor": true
+    },
+    {
+      "viewport": 390,
+      "theme": "light",
+      "article_width": 308,
+      "http_status": 200,
+      "broken_images": 0,
+      "overflow": false,
+      "responsive_hero_correct": true,
+      "full_ui_links": 4,
+      "evidence_anchor": true
+    }
+  ],
+  "remote_content_verification": {
+    "checkedDate": "2026-10-27",
+    "repository": "https://github.com/Yoriichi-GOD/Yoriichi-GOD",
+    "visibility": "public",
+    "default_branch": "main",
+    "head": "ab64eae1b38659e6b7ffa7bdaa0edc250fd443bc",
+    "file_count": 48,
+    "remote_tree_matches_local": true,
+    "readme_sha256": "869156951e0799dd0db0058275ad2edde14379ccbd42e6eacd51cd0d4371dc96",
+    "excluded_originals_and_review_files": true,
+    "full_ui_assets": [
+      {
+        "project": "warscythe",
+        "anonymous_access": true,
+        "sha256_matches_approved_asset": true
+      },
+      {
+        "project": "reflex",
+        "anonymous_access": true,
+        "sha256_matches_approved_asset": true
+      },
+      {
+        "project": "flood-lab",
+        "anonymous_access": true,
+        "sha256_matches_approved_asset": true
+      },
+      {
+        "project": "regulens",
+        "anonymous_access": true,
+        "sha256_matches_approved_asset": true
+      }
+    ]
+  }
 }

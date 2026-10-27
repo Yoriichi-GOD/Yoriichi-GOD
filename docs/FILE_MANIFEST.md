@@ -1,6 +1,6 @@
-# Files created
+# Published file manifest
 
-All 48 files below are new in the isolated `Yoriichi-GOD` local repository. No existing project file was changed. No remote, commit or push was created.
+The 49 files below belong to the profile repository. They comprise the 48-file reviewed package plus the publication record. Existing project files were not changed. Raw screenshot originals and local review data remain ignored.
 
 ## Root
 
@@ -41,13 +41,14 @@ All 48 files below are new in the isolated `Yoriichi-GOD` local repository. No e
 - `assets/projects/warscythe-ui.webp`
 - `assets/projects/warscythe.svg`
 
-## Design, evidence and publishing records
+## Design, evidence and publication records
 
 - `docs/CONTENT_PROVENANCE.md`
 - `docs/FILE_MANIFEST.md`
 - `docs/MAINTENANCE.md`
 - `docs/PROFILE_DESIGN_SYSTEM.md`
 - `docs/PROJECT_INVENTORY.md`
+- `docs/PUBLICATION.md`
 - `docs/VERIFICATION.json`
 - `docs/VISUAL_QA.md`
 
@@ -62,6 +63,6 @@ All 48 files below are new in the isolated `Yoriichi-GOD` local repository. No e
 - `tools/ui_sources.json`
 - `tools/verify_links.py`
 
-## Local review files excluded from publication
+## Excluded local files
 
-`.review/` contains downloaded public source images, read-only inventory, isolated build dependencies, GitHub-rendered HTML, browser previews, screenshots and diagnostic receipts. It is ignored, is not part of the publication file list, and must not be force-added. `.git/` is local repository metadata.
+`.review/`, the original user PNGs, installed dependencies and `.git/` metadata are excluded from publication. The authorized REGULENS image is included only as the approved optimized UI asset and embedded plate; private document/dataset/benchmark files are absent.
